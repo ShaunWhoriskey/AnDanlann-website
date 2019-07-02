@@ -1,0 +1,115 @@
+
+
+
+.bg-img {
+    /* The image used */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url("./Images/AnDanlann0.jpg");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+
+  }
+
+  .bk-img {
+    /* The image used */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url("./Images/Basketball2.jpg");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Style the header */
+.header {
+    /*background-color: #f1f1f1;*/
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    /*color: #0d52e9;*/
+    color: #f2f2f2;
+
+}
+
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    /*border-style: ridge;
+    border-color: green;*/
+    border: 5px solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.colh3 {
+  text-shadow: 3px 2px red;
+}
+
+.test {
+  background-color: aqua;
+  text-emphasis-color: blue;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/*@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}*/
+
